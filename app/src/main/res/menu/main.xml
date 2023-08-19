@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="검색사이트" >
+        <menu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <item
+                android:id="@+id/action_naver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="네이버" />
+            <item
+                android:id="@+id/action_google"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="구글" />
+            <item
+                android:id="@+id/action_daum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="다음" />
+        </menu>
+    </item>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="개발자 정보">
+        <menu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <item
+                android:id="@+id/action_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="전화하기" />
+            <item
+                android:id="@+id/action_send_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="문자보내기" />
+            <item
+                android:id="@+id/action_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="이메일보내기" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+</menu>
